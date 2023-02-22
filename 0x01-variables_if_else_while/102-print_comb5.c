@@ -19,8 +19,10 @@ int main(void)
 		{
 			j = i + 1;
 			jfirst = ifirst;
-			for (; j < 58; j++)
+			for (; jfirst < 58; jfirst++)
 			{
+				for (; j < 58; j++)
+				{
 				putchar(ifirst);
 				putchar(i);
 				putchar(' ');
@@ -36,6 +38,6 @@ int main(void)
 		}
 	}
 }
-putchar(\n');
+putchar('\n');
 return (0);
 }
