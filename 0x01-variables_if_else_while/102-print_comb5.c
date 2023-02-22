@@ -4,7 +4,7 @@
  * main - a simple program that outputs unordered
  * combinations of two digit integers without duplicates
  *
- * Return: 0 (success)
+ * Return: 0(success)
  */
 int main(void)
 {
